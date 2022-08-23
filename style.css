@@ -1,0 +1,68 @@
+body{
+    background: rgb(202, 228, 192);
+ 
+}
+
+/* parte fixa de cima */
+
+#cabecalho {
+    background: rgb(231, 139, 164 );
+    width: 100%;
+    height: 22%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: inline;
+}
+
+.titulo-header {
+    position: fixed;
+}
+
+#titulo {
+    color: #FFFFFF;
+    font-size: 63px;
+    margin-left: 55px;
+    margin-top: 10%;
+
+}
+
+.menu {
+    float: right;
+    margin-right: 20px;
+    margin-top: 110px;
+   
+}
+
+.menu li {
+    display: inline;
+    padding: 15px;
+    color: #36190e;
+    font-size: 20px;
+    
+}
+
+
+/* configurações gerais das seções */
+
+section {
+    background: #FFFFFF;
+    margin-top: 12%;
+}
+
+
+/* Salve a Rainha Nzinga */
+.rainha-nzinga {
+    display: inline-block;
+    width: 100%;
+
+}
+
+#img-rainha-nzinga{
+
+}
+
+#texto-rainha-nzinga {
+    width: 30%;
+    position: relative;
+}
