@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Nzinga Trancismo</title>
-        <link type= text/css rel= stylesheet href="style.css">
+        <link rel= stylesheet href="style.css">
+        <link rel= stylesheet href="reset.css">
+    
+      
     </head>
     <body>
         <div id="cabecalho">
@@ -10,27 +13,53 @@
                 <h1 id="titulo">Nzinga Trancismo</h1>
             </div>
             <ul class="menu">
-                <li class="itens"><a href="#rainha-nzinga">Quem somos</a></li>
-                <li class="itens">Salve a Rainha Nzinga</li>
-                <li class="itens">Modelos</li>
-                <li class="itens">Agendamento</li>
+                <li class="itens"><a href="#quemsomos">Quem somos</a></li>
+                <li class="itens"><a href="#rainha-nzinga">Salve a Rainha Nzinga</a></li>
+                <li class="itens"><a href="#modelos">Modelos</a></li>
+                <li class="itens"><a href="#agendamento">Agendamento</a></li>
             </ul>
         </div>
-        <section class="bem-vinde">
-            <img src="">
-        </section>
-        <section class="quem-somos">
-            aaaaa
-        </section> 
-        <section class="rainha-nzinga">
-            <div id="img-rainha-nzinga"><img  width = "850" height="450" src="rainha_nzinga.jpg"></div>
-            <div id="texto-rainha-nzinga"><p >Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. </p></div>
-        </section>
-        <section class="modelos">
-            aaaaa
-        </section>
-        <section class="agendamento">
-            aaaaa
-        </section>
+        <div class="secoes">
+
+            <section id="galeria" class="parte">
+                <div class="fotos">
+                <img src="img01.jpeg" id="foto">     
+                <button onclick= "galeria()">></button>
+     
+                </div>
+            </section>
+
+ 
+
+            <section id="quem-somos" class="parte">
+                aaaaa
+            </section> 
+            <section id="rainha-nzinga" class="parte">
+                <div id="img-rainha-nzinga"><img  width = "850" height="450" src="rainha_nzinga.jpg"></div>
+                <div id="texto-rainha-nzinga"><p >Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. Sobre a rainha Nzinga. </p></div>
+            </section>
+            <section id="modelos" class="parte">
+                aaaaa
+            </section>
+            <section id="agendamento" class="parte">
+                aaaaa
+            </section>
+            <script>
+                var fotos = [
+                "img01.jpeg",
+                "img03.jpeg",
+          
+                ];
+
+                i = 0;
+                function galeria(){
+                    document.getElementById("foto").src=fotos[i];
+                    i++;
+                    if (i == 2) {
+                        i = 0;
+                    };
+                };
+            </script>
+        </div>
     </body>
 </html>

@@ -1,6 +1,6 @@
 body{
     background: rgb(202, 228, 192);
- 
+
 }
 
 /* parte fixa de cima */
@@ -42,18 +42,48 @@ body{
     
 }
 
-
-/* configurações gerais das seções */
-
-section {
-    background: #FFFFFF;
-    margin-top: 12%;
+.menu a {
+    text-decoration: none;
 }
 
 
+/* configurações gerais das seções */
+
+.secoes {
+    margin-top: 190px;
+
+
+}
+
+section {
+    background: #FFFFFF;
+    
+
+}
+
+.parte {
+    margin-bottom: 30px;
+}
+
+/* seção Galeria de Fotos */
+
+#galeria {
+
+    background-color: #000000;
+    overflow: hidden;
+}
+.fotos img {
+    width: 840px;
+    height: 560px;
+}
+
+
+
+
+
 /* Salve a Rainha Nzinga */
-.rainha-nzinga {
-    display: inline-block;
+#rainha-nzinga {
+    display: inline-flex;
     width: 100%;
 
 }
@@ -63,6 +93,6 @@ section {
 }
 
 #texto-rainha-nzinga {
-    width: 30%;
+    width: 25%;
     position: relative;
 }
