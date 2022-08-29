@@ -52,7 +52,6 @@ body{
 .secoes {
     margin-top: 190px;
 
-
 }
 
 section {
@@ -69,19 +68,39 @@ section {
 
 #galeria {
 
-    background-color: #000000;
-    overflow: hidden;
+    background-color: #5b5b5b;
+
 }
-.fotos img {
+
+#fotodagaleria {
     width: 840px;
     height: 560px;
 }
 
 
+#fotodagaleria:hover {
+    opacity: 0.9;
+}
+
+/* Seção Quem Somos */
+
+#quem-somos {
+    padding: 18px;
+}
+
+.titulo-quemsomos {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 27px;
+}
+
+.texto-quemsomos {
+    
+}
 
 
-
-/* Salve a Rainha Nzinga */
+/* Seção salve a Rainha Nzinga */
 #rainha-nzinga {
     display: inline-flex;
     width: 100%;
@@ -94,5 +113,5 @@ section {
 
 #texto-rainha-nzinga {
     width: 25%;
-    position: relative;
+    padding: 14px;
 }
