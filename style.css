@@ -1,0 +1,89 @@
+.secoes{
+    background-color: rgb(202, 228, 192);
+
+
+}
+
+
+/* parte fixa de cima */
+
+.cabecalho {
+    height: 170px;
+}
+
+.cabecalho, .cabecalho div {
+    background-color: rgb(231, 139, 164 );
+    
+    
+}
+
+
+#nzinga {
+    color: #FFFFFF;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 73px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#nzinga i{
+    font-size: 35px;
+    padding-left: 20px;
+
+
+}
+
+/* pq o menu-li não está funcionando? */
+.menu-li {
+    color: #ff4800;
+    
+}
+
+
+/* configurações gerais das seções */
+
+
+
+section {
+    background: #FFFFFF;
+}
+
+
+/* seção Galeria de Fotos */
+
+
+#fotodagaleria {
+   width: 300px;
+   opacity: 0.8;
+  
+}
+
+#fotodagaleria:hover {
+    opacity: 1.0;
+}
+
+/* Seção Quem Somos */
+
+#quem-somos {
+    padding: 18px;
+}
+
+.titulo-quemsomos {
+    font-size: 26px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+}
+
+
+/* Seção salve a Rainha Nzinga */
+
+#rainha-nzinga {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+#texto-rainha-nzinga {
+    width: 25%;
+    padding: 14px;
+}
